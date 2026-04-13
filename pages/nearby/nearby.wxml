@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="tabs">
+    <view wx:for="{{categories}}" wx:key="index" class="tab {{currentCategory === item.value ? 'active' : ''}}" bindtap="switchCategory" data-category="{{item.value}}">
+      {{item.name}}
+    </view>
+  </view>
+
+  <view class="list">
+    <view wx:for="{{pois}}" wx:key="id" class="item">
+      <text class="name">{{item.name}}</text>
+      <text class="address">{{item.address || '地址待补充'}}</text>
+      <text class="distance">距离约{{item.distance}}米</text>
+    </view>
+    <view wx:if="{{loading}}" class="loading">加载中...</view>
+    <view wx:if="{{!loading && pois.length === 0}}" class="empty">暂无结果</view>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+page {
+  background-color: #f5f5f5;
+}
+
+/* 自定义 cell 的样式，让它更像卡片 */
+.custom-cell {
+  margin: 24rpx 24rpx 0 24rpx;
+  background-color: #fff;
+  border-radius: 24rpx;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+/* 按压效果 */
+.custom-cell:active {
+  background-color: #f9f9f9;
+  transform: scale(0.98);
+}

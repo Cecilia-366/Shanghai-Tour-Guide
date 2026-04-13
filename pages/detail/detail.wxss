@@ -1,0 +1,39 @@
+page {
+  background-color: #fafafa;
+}
+
+.detail-card {
+  margin: 30rpx;
+  background-color: #fff;
+  border-radius: 32rpx;
+  padding: 40rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.05);
+}
+
+.name {
+  font-size: 52rpx;
+  font-weight: bold;
+  color: #1a1a1a;
+  display: block;
+  border-left: 8rpx solid #07c160;
+  padding-left: 24rpx;
+  margin-bottom: 30rpx;
+}
+
+.intro {
+  font-size: 32rpx;
+  color: #07c160;
+  background: #e8f7ef;
+  display: inline-block;
+  padding: 8rpx 24rpx;
+  border-radius: 40rpx;
+  margin-bottom: 40rpx;
+}
+
+.detail-text {
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 60rpx;
+}

@@ -1,0 +1,15 @@
+<view style="background-color: #f8f8f8; min-height: 100vh; padding: 40rpx;">
+  <view style="background-color: white; border-radius: 32rpx; padding: 40rpx; box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);">
+    
+    <!-- 景点真实照片 -->
+    <image src="{{spot.image}}" mode="widthFix" style="width: 100%; border-radius: 24rpx; margin-bottom: 30rpx;"></image>
+    
+    <text style="font-size: 52rpx; font-weight: bold; color: #1a1a1a; display: block;">{{spot.name}}</text>
+    <text style="font-size: 32rpx; color: #888; margin-top: 20rpx; display: block;">{{spot.intro}}</text>
+    <text style="font-size: 30rpx; color: #333; margin-top: 40rpx; line-height: 1.6; display: block;">{{spot.detail}}</text>
+    
+    <button type="primary" bindtap="openMap" style="margin-top: 60rpx; background-color: #07c160; border-radius: 48rpx;">🗺️ 查看地图</button>
+    
+    <button bindtap="goExplore" style="margin-top: 30rpx; background-color: white; color: #07c160; border: 2rpx solid #07c160; border-radius: 48rpx;">🔍 探索周边</button>
+  </view>
+</view>
