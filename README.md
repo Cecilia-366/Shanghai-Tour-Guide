@@ -23,6 +23,7 @@ A WeChat mini program that helps visitors discover popular attractions in Shangh
 ## Demo Video
 
 [Click here to watch the demo video](video/demo.mp4)
+IF it doesn't work,try this.<video src="video/demo.mp4" controls width="100%"></video>
 
 ## Trial Version
 
@@ -31,17 +32,25 @@ Scan the QR code below to try the mini program on WeChat. *Note: Due to WeChat r
 [Trial QR Code](images/qr_trial.png)  
 
 ## Project Structure
-ShanghaiTourRec/
+
+```
+Shanghai-Tour-Guide/
 ├── pages/
-│ ├── index/ # Home page (list, tags, search)
-│ ├── detail/ # Detail page (info, image, map, nearby)
-│ └── nearby/ # Nearby page (category tabs, POI list)
-├── images/ # Default fallback images
+│   ├── index/          # Home page (list, tags, search)
+│   ├── detail/         # Detail page (info, image, map, nearby)
+│   └── nearby/         # Nearby page (category tabs, POI list)
+├── images/             # Default placeholder images (3 random)
+├── video/              # Demo video
+├── utils/              # Utility functions
 ├── app.js
 ├── app.json
 ├── app.wxss
-└── project.config.json
-
+├── project.config.json
+├── sitemap.json
+├── package.json        # npm dependencies (weui-miniprogram)
+├── package-lock.json   # dependency lock file
+└── README.md
+```
 ## How to Run Locally
 
 1. Clone this repository.
