@@ -23,7 +23,6 @@ A WeChat mini program that helps visitors discover popular attractions in Shangh
 ## Demo Video
 
 [Click here to watch the demo video](video/demo.mp4)
-IF it doesn't work,try this.<video src="video/demo.mp4" controls width="100%"></video>
 
 ## Trial Version
 
